@@ -1,0 +1,62 @@
+#wes {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+.item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .quantity {
+    display: inline-block;
+  }
+  
+  .quantity input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .like-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .liked {
+    color: red;
+  }
+  
+
+  .delete-btn{
+    background-color: transparent;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+   display: inline-block;
+  }
+
+  
